@@ -1,0 +1,178 @@
+/*
+This is a comment!
+Your CSS will go in this file
+HI!
+*/
+
+/look up css CHILD selectors. They're complicated, but worth knowing!/
+nav li{
+ background: #fff;
+}
+
+.navbar-default{
+  background-color:rgba(255,255,255,0.3);
+  margin-top: 20px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+  float: none;
+}
+.navbar-default .navbar-nav>li>a{
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{
+  color: #054583;
+  opacity: .5;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{
+  color: #054583;
+  background-color: transparent;
+}
+
+.cover-text{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  color: black;
+}
+
+#.active{
+  text-decoration: underline;
+  background-color: none;
+}
+
+
+
+/*background of HOME body.
+REMEMBER:
+'.' means class (select lots of elements of different types)
+'#' means ID (select ONE and ONLY ONE element)
+Neither of these means element (select all elements of a particular type)
+*/
+
+
+body{
+    background: url('bg.png');
+    background-repeat:no-repeat;
+    background-position: top;
+    height: 100%;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.panel-default{
+  padding: 20px;
+}
+
+.panel{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color:white;
+}
+
+.row{
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+h1{
+  font-family: 'Satisfy', cursive;
+  font-weight: 600;
+  color: #054583;
+  font-size: 44px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #054583;
+  font-size: 16px;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #054583;
+  opacity: .7;
+  font-size: 16px;
+  text-align: left;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+
+.normal {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: black;
+  font-size: 16px;
+}
+
+.top {
+  color:#054583;
+  text-align: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.fw {
+  max-width: 500px;
+}
+
+label  {
+ color: black !important;
+}
+
+.form-check {
+  text-align:left;
+}
+
+html {
+  font-size: 14px;
+}
+
+#@media all and (max-width: 1200px) { /* screen size until 1200px */
+
+    h1 {
+      font-size: 1em;
+    }
+
+    body {
+        font-size: 1em; /* 1.5x default size */
+    }
+
+}
+#@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: .5em; /* 1.2x default size */
+        }
+    }
+#@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.5em; /* 0.8x default size */
+        }
+    }
